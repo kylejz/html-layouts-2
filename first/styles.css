@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+header {
+	width:100%;
+	float:left;
+	padding:2%;
+}
+header div {
+	width: 32%;
+	height:100px;
+	float:left;
+	margin:0;
+}
+.left {
+	background-color: red;
+	margin-right:2%;
+}
+.mid {
+	background-color: blue;
+	margin-right:2%;
+}
+.right {
+	background-color: black;
+}
+main {
+	width: 100%;
+	padding:0;
+	clear:both;
+	margin:0;
+}
+p {
+	font-family: Impact;
+	padding:0;
+	margin-left:2%;
+	margin-right:2%;
+	margin-bottom: 2%
+}
+.one {
+	width:96%;
+	background-color: black;
+	height: 150px;
+	position:relative;
+	margin-left: 2%;
+}
+.two {
+	width: 32%;
+	height: 150px;
+	background-color: gray;
+	top:0;
+	left:0;
+	position:absolute;
+}
+footer {
+	margin:0;
+	padding:2%;
+}
+footer div {
+	margin:0;
+	padding:0;
+	height:100px;
+}
+.three {
+	width:100%;
+	background-color: blue;
+	position:relative;
+}
+.four {
+	width: 25%;
+	background-color: red;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.five {
+	width: 70%;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	right: 15%
+}
+

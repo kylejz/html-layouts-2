@@ -9,6 +9,8 @@ html, body {
 }
 body {
 	background-color: #cecece;
+	max-width: 750px;
+	min-width: 500px;
 }
 header {
 	padding: 5%;
